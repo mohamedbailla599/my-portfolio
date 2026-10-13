@@ -1,0 +1,38 @@
+{
+  "name": "Mohamed Bailla",
+  "firstName": "Mohamed",
+  "role": "Software Engineering Master's Student | Backend & Full-Stack Developer",
+  "availability": "Seeking a 6-month PFE internship — January 2027",
+  "email": "mohamedbailla599@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/mohamed-bailla-5bb45b2aa/",
+  "github": "https://github.com/mohamedbailla599",
+  "cv": "/Mohamed-Bailla-CV.pdf",
+  "portrait": "/images/mohamed-portrait.png",
+  "languages": [
+    { "name": "Arabic", "level": "Native" },
+    { "name": "French", "level": "Fluent" },
+    { "name": "English", "level": "Fluent" }
+  ],
+  "strengths": [
+    {
+      "icon": "layers",
+      "title": "Software Engineering",
+      "text": "Backend architecture, microservices and full-stack applications."
+    },
+    {
+      "icon": "target",
+      "title": "Problem Solving",
+      "text": "Analyzing needs and turning technical challenges into solutions."
+    },
+    {
+      "icon": "rocket",
+      "title": "Continuous Learning",
+      "text": "Exploring machine learning, AI integration and new tools."
+    },
+    {
+      "icon": "users",
+      "title": "Collaboration",
+      "text": "First place at RNsport Hackathon 2026 with a team of three."
+    }
+  ]
+}

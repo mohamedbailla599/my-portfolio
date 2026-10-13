@@ -1,0 +1,29 @@
+[
+  {
+    "id": "master",
+    "qualification": "Master in Software Engineering",
+    "institution": "Université Ibn Zohr",
+    "location": "Agadir",
+    "start": "2025",
+    "current": true,
+    "details": [
+      "Subjects include Python gRPC, Java RMI, Business Intelligence, Optimization and Operations Research, and JSP."
+    ]
+  },
+  {
+    "id": "licence",
+    "qualification": "Licence in Software Engineering",
+    "institution": "Université Ibn Zohr",
+    "location": "Agadir",
+    "start": "2024",
+    "end": "2025"
+  },
+  {
+    "id": "bts",
+    "qualification": "BTS — Information Systems Development",
+    "institution": "Lycée d’excellence technique",
+    "location": "Guelmim",
+    "start": "2022",
+    "end": "2024"
+  }
+]

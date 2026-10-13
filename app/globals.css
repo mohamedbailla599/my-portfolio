@@ -1,0 +1,183 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'shadcn/tailwind.css';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, monospace;
+
+  --color-ink: #05060b;
+  --color-ink-2: #0b1020;
+  --color-surface: #0c1020;
+  --color-electric: #287bff;
+  --color-violet: #823dff;
+  --color-fg: #f7f8ff;
+  --color-soft: #9ea8c4;
+  --color-line: rgb(120 140 255 / 0.14);
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-destructive: var(--destructive);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  --animate-pulse-soft: pulse-soft 4.5s ease-in-out infinite;
+  --animate-flow: flow 1.8s linear infinite;
+  --animate-blink: blink 2.2s ease-in-out infinite;
+  --animate-float: float 7s ease-in-out infinite;
+}
+
+:root {
+  color-scheme: dark;
+  --background: #05060b;
+  --foreground: #f7f8ff;
+  --card: #0c1020;
+  --card-foreground: #f7f8ff;
+  --popover: #0c1020;
+  --popover-foreground: #f7f8ff;
+  --primary: #287bff;
+  --primary-foreground: #f7f8ff;
+  --secondary: #0b1020;
+  --secondary-foreground: #f7f8ff;
+  --muted: #0b1020;
+  --muted-foreground: #9ea8c4;
+  --accent: #121a33;
+  --accent-foreground: #f7f8ff;
+  --destructive: #ff5d6c;
+  --border: rgb(120 140 255 / 0.14);
+  --input: rgb(120 140 255 / 0.18);
+  --ring: #287bff;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    background: #05060b;
+  }
+  body {
+    @apply bg-ink font-sans text-fg antialiased;
+    overflow-x: clip;
+  }
+  ::selection {
+    background: rgb(130 61 255 / 0.45);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid #6aa8ff;
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(90deg, #7db4ff 0%, #287bff 38%, #823dff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .bg-brand-gradient {
+    background: linear-gradient(135deg, #287bff 0%, #823dff 100%);
+  }
+  .hairline {
+    border: 1px solid var(--color-line);
+  }
+  .section-glow {
+    background:
+      radial-gradient(60% 50% at 85% 0%, rgb(40 123 255 / 0.1), transparent 70%),
+      radial-gradient(40% 40% at 0% 100%, rgb(130 61 255 / 0.08), transparent 70%);
+  }
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@keyframes pulse-soft {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+
+@keyframes flow {
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.flow-dash {
+  stroke-dasharray: 4 6;
+  animation: var(--animate-flow);
+}
+
+dialog::backdrop {
+  background: rgb(3 4 10 / 0.78);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

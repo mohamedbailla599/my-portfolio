@@ -1,0 +1,29 @@
+[
+  {
+    "id": "hackathon",
+    "type": "achievement",
+    "title": "RNsport Hackathon — 1st place",
+    "organization": "Team of three · CrowdSense prototype",
+    "start": "2026",
+    "highlights": [
+      "Won first place with the CrowdSense intelligent stadium-navigation prototype.",
+      "Individual contribution: training the prediction model for crowd movement and routing."
+    ]
+  },
+  {
+    "id": "onep",
+    "type": "experience",
+    "title": "Software Engineering Intern",
+    "organization": "Office National de l’Eau Potable (ONEP)",
+    "location": "Morocco",
+    "period": "Jul — Aug 2024",
+    "start": "2024-07",
+    "end": "2024-08",
+    "highlights": [
+      "Developed a web-based employee-management application to centralize employee data and support administrative processes.",
+      "Analyzed user needs and resolved technical problems.",
+      "Used Linux and Bash for large CSV and text-file processing and data analysis, including water-consumption data.",
+      "Assisted with basic network installation, equipment connections, and troubleshooting."
+    ]
+  }
+]

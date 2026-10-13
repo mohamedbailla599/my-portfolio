@@ -1,0 +1,115 @@
+[
+  {
+    "id": "booking",
+    "number": "01",
+    "name": "Booking Microservices",
+    "eyebrow": "Backend · Distributed systems",
+    "description": "A distributed booking platform organized around flight, passenger, booking, and identity services. It combines inter-service communication, asynchronous messaging, database persistence, security, and observability.",
+    "stack": [
+      "Java",
+      "Spring Boot",
+      "API Gateway",
+      "gRPC",
+      "RabbitMQ",
+      "PostgreSQL",
+      "MongoDB",
+      "Spring Security",
+      "Keycloak",
+      "OAuth2",
+      "OIDC",
+      "OpenTelemetry",
+      "Prometheus",
+      "Grafana",
+      "Jaeger"
+    ],
+    "status": "Backend project",
+    "github": "https://github.com/mohamedbailla599/Booking-microservices",
+    "highlights": [
+      "Services organized by business domain: API Gateway, Flight, Passenger, Booking and a Keycloak identity service.",
+      "Synchronous service-to-service calls over gRPC and asynchronous events through RabbitMQ.",
+      "Persistence with PostgreSQL and MongoDB.",
+      "Authentication and authorization with Spring Security, Keycloak, OAuth2 and OpenID Connect.",
+      "Observability with OpenTelemetry traces, Prometheus metrics, Grafana dashboards and Jaeger.",
+      "Architecture patterns explored: Domain-Driven Design, CQRS and Vertical Slice."
+    ],
+    "note": "Built to explore microservices architecture and distributed backend design rather than a simple CRUD application.",
+    "illustration": "booking"
+  },
+  {
+    "id": "greenflow",
+    "number": "02",
+    "name": "GreenFlow",
+    "eyebrow": "Full-stack · Generative AI",
+    "description": "An intelligent irrigation-monitoring interface with sensor dashboards, historical visualizations, alerts, and automatic or manual irrigation controls. Gemini generates contextual natural-language recommendations from sensor data, with error handling and a rule-based fallback.",
+    "stack": ["React", "TypeScript", "Tailwind CSS", "Gemini 2.5 Flash", "@google/genai"],
+    "status": "Web application",
+    "github": "https://github.com/mohamedbailla599/GreenFlow",
+    "highlights": [
+      "Real-time sensor dashboard with history and visualization.",
+      "Alerts, plus automatic and manual irrigation control screens.",
+      "Gemini 2.5 Flash through the @google/genai SDK: prompts built from sensor data produce natural-language recommendations.",
+      "Handles API errors and empty responses, with a local rule-based fallback."
+    ],
+    "note": "The interface was built with AI-assisted coding.",
+    "illustration": "greenflow"
+  },
+  {
+    "id": "traffiq",
+    "number": "03",
+    "name": "Traffic Intelligence (TraffiQ)",
+    "eyebrow": "AI · Computer vision",
+    "description": "A traffic-analysis platform combining vehicle detection and tracking with analytics for speed, incidents, and traffic patterns.",
+    "stack": ["Python", "Flask", "YOLOv8", "ByteTrack", "OpenCV", "Machine learning"],
+    "status": "Computer-vision project",
+    "github": "https://github.com/mohamedbailla599/Traffic-Intelligence",
+    "highlights": [
+      "Vehicle detection and tracking with YOLOv8 and ByteTrack across user-defined lanes.",
+      "Per-lane analytics, speed analysis and incident detection.",
+      "Flask backend with an authenticated analytics dashboard and logging.",
+      "Prediction-related features based on traffic data."
+    ],
+    "illustration": "traffiq"
+  },
+  {
+    "id": "pos",
+    "number": "04",
+    "name": "Phone Retail POS",
+    "eyebrow": "Full-stack · Retail",
+    "description": "A full-stack POS and inventory management system designed for retail environments handling both serialized used devices and bulk accessories.",
+    "stack": [
+      "Django",
+      "Django REST Framework",
+      "PostgreSQL",
+      "React",
+      "TypeScript",
+      "Vite",
+      "Docker Compose"
+    ],
+    "status": "In development",
+    "github": "https://github.com/mohamedbailla599/phone-retail-pos",
+    "highlights": [
+      "Stack taken from the repository README: Django REST Framework and PostgreSQL on the backend, React, TypeScript and Vite on the frontend, Docker Compose for infrastructure.",
+      "Domains listed in the README: catalog, inventory, sales, payments, customers, reservations, warranty, returns, exchanges, audit and reporting."
+    ],
+    "note": "The repository is marked as under development.",
+    "illustration": "pos"
+  },
+  {
+    "id": "crowdsense",
+    "number": "05",
+    "name": "CrowdSense",
+    "eyebrow": "AI · Hackathon prototype",
+    "description": "An intelligent stadium-navigation prototype designed to help spectators find shorter, less congested routes. Mohamed’s contribution was training the prediction model for path and crowd-traffic prediction.",
+    "stack": ["Python", "Random Forest", "Extra Trees"],
+    "status": "Prototype · not deployed",
+    "accolade": "1st place — RNsport Hackathon 2026",
+    "accoladeBadge": "1st place",
+    "highlights": [
+      "Built by a team of three, which won first place at the RNsport Hackathon 2026.",
+      "Team concept: navigation arrows on the phone to guide spectators to their seat, toilets and food points.",
+      "Mohamed’s contribution: training the prediction model for paths and human traffic (Random Forest and Extra Trees) used to suggest the shortest or least crowded route."
+    ],
+    "note": "Hackathon prototype — not deployed and without a public repository.",
+    "illustration": "crowdsense"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "backend",
+    "title": "Backend & Software Engineering",
+    "wide": true,
+    "skills": [
+      { "name": "Java", "icon": "java", "level": "project" },
+      { "name": "Spring Boot", "icon": "springboot", "level": "project" },
+      { "name": "gRPC", "icon": "grpc", "level": "project" },
+      { "name": "RabbitMQ", "icon": "rabbitmq", "level": "project" },
+      { "name": "REST APIs", "icon": "rest", "level": "project" },
+      { "name": "API Gateway", "icon": "gateway", "level": "project" },
+      { "name": "Microservices", "icon": "microservices", "level": "project" },
+      { "name": "DDD", "icon": "ddd", "level": "project", "note": "Domain-Driven Design" },
+      { "name": "CQRS", "icon": "cqrs", "level": "project" },
+      { "name": "Spring Security", "icon": "springsecurity", "level": "project" },
+      { "name": "Keycloak", "icon": "keycloak", "level": "project" },
+      { "name": "OAuth2 / OIDC", "icon": "oauth", "level": "project" },
+      { "name": "Django", "icon": "django", "level": "project" }
+    ]
+  },
+  {
+    "id": "frontend",
+    "title": "Frontend",
+    "skills": [
+      { "name": "React", "icon": "react", "level": "project" },
+      { "name": "TypeScript", "icon": "typescript", "level": "project" },
+      { "name": "JavaScript", "icon": "javascript", "level": "project" },
+      { "name": "HTML5", "icon": "html5", "level": "project" },
+      { "name": "CSS3", "icon": "css3", "level": "project" },
+      { "name": "Tailwind CSS", "icon": "tailwind", "level": "project" },
+      { "name": "Next.js", "icon": "nextjs", "level": "tutorial" }
+    ]
+  },
+  {
+    "id": "ai",
+    "title": "AI, Machine Learning & Vision",
+    "skills": [
+      { "name": "Gemini API", "icon": "gemini", "level": "project" },
+      { "name": "Python", "icon": "python", "level": "project" },
+      { "name": "Flask", "icon": "flask", "level": "project" },
+      { "name": "OpenCV", "icon": "opencv", "level": "project" },
+      { "name": "YOLOv8", "icon": "yolo", "level": "project" },
+      { "name": "ByteTrack", "icon": "bytetrack", "level": "project" },
+      { "name": "Random Forest", "icon": "randomforest", "level": "project" },
+      { "name": "Extra Trees", "icon": "extratrees", "level": "project" },
+      { "name": "AI agents & MCP", "icon": "agents", "level": "notions" }
+    ]
+  },
+  {
+    "id": "databases",
+    "title": "Databases",
+    "skills": [
+      { "name": "PostgreSQL", "icon": "postgresql", "level": "project" },
+      { "name": "MongoDB", "icon": "mongodb", "level": "project" },
+      { "name": "SQL", "icon": "sql", "level": "courses" },
+      { "name": "MySQL", "icon": "mysql", "level": "courses" },
+      { "name": "SQLite", "icon": "sqlite", "level": "courses" }
+    ]
+  },
+  {
+    "id": "observability",
+    "title": "Observability",
+    "skills": [
+      { "name": "OpenTelemetry", "icon": "opentelemetry", "level": "project" },
+      { "name": "Prometheus", "icon": "prometheus", "level": "project" },
+      { "name": "Grafana", "icon": "grafana", "level": "project" },
+      { "name": "Jaeger", "icon": "jaeger", "level": "project" }
+    ]
+  },
+  {
+    "id": "tools",
+    "title": "Development Tools & Infrastructure",
+    "wide": true,
+    "skills": [
+      { "name": "Linux", "icon": "linux", "level": "project", "note": "ONEP internship" },
+      { "name": "Bash", "icon": "bash", "level": "project", "note": "ONEP internship" },
+      { "name": "Git", "icon": "git", "level": "courses" },
+      { "name": "Maven", "icon": "maven", "level": "courses" },
+      { "name": "Docker", "icon": "docker", "level": "courses" },
+      { "name": "Jenkins", "icon": "jenkins", "level": "courses" },
+      { "name": "Kubernetes", "icon": "kubernetes", "level": "courses", "note": "Courses & mini-projects" },
+      { "name": "Ansible", "icon": "ansible", "level": "notions" },
+      { "name": "AWS", "icon": "aws", "level": "studied" },
+      { "name": "Pytest", "icon": "pytest", "level": "notions", "note": "Automated testing" }
+    ]
+  },
+  {
+    "id": "data",
+    "title": "Data & Business Intelligence",
+    "wide": true,
+    "skills": [
+      { "name": "Pandas", "icon": "pandas", "level": "courses" },
+      { "name": "NumPy", "icon": "numpy", "level": "courses" },
+      { "name": "scikit-learn", "icon": "scikit", "level": "courses" },
+      { "name": "ETL", "icon": "etl", "level": "courses" },
+      { "name": "Talend", "icon": "talend", "level": "courses" },
+      { "name": "SSIS", "icon": "ssis", "level": "courses" },
+      { "name": "OLAP", "icon": "olap", "level": "courses" },
+      { "name": "Power BI", "icon": "powerbi", "level": "courses" }
+    ]
+  }
+]
